@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "422615762567",
+    "project_id": "ts-no-honbab",
+    "storage_bucket": "ts-no-honbab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422615762567:android:2853ffeb0811a372725a22",
+        "android_client_info": {
+          "package_name": "com.nohonbab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422615762567-rot3qjiej0mvh8hap82qrc7h0uspjdl8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_5egQh1qxxaMnFK-6sneb6XMd0Mo389s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422615762567-rot3qjiej0mvh8hap82qrc7h0uspjdl8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
