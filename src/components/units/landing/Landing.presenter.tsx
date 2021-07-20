@@ -1,8 +1,10 @@
+import { useNavigation } from '@react-navigation/native'
 import React from 'react'
-import { View, Image, Button, TouchableOpacity } from 'react-native'
+import { View, Image, TouchableOpacity } from 'react-native'
 import { styles } from './Landing.styles'
 
-const LandingUI = ({navigation}) => {
+const LandingUI = () => {
+  const navigation = useNavigation()
   
   return (
     <View style={styles.mainView}>
@@ -11,7 +13,7 @@ const LandingUI = ({navigation}) => {
         source={require('../../../../public/landing/logo.png')}
       />
       <TouchableOpacity
-        onPress={() => navigation.navigate('list')}
+        onPress={() => navigation.navigate('tabNavigator')}
       >
         <Image
           source={require('../../../../public/landing/login-button.png')}

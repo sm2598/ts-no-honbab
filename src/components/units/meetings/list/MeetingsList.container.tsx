@@ -1,9 +1,9 @@
 import React from 'react'
 import ListUI from './MeetingsList.presenter'
 
-const List = ({navigation}) => {
+const List = () => {
 
-  return <ListUI navigation={navigation} />
+  return <ListUI />
 }
 
 export default List

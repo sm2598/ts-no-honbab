@@ -1,9 +1,9 @@
 import React from 'react'
 import List from '../../../src/components/units/meetings/list/MeetingsList.container'
 
-const ListPage = ({navigation}) => {
+const ListPage = () => {
 
-  return <List navigation={navigation} />
+  return <List />
 }
 
 export default ListPage

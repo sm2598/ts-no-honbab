@@ -1,9 +1,9 @@
 import React from 'react'
 import LandingUI from './Landing.presenter'
 
-const Landing = ({navigation}) => {
+const Landing = () => {
 
-  return <LandingUI navigation={navigation} />
+  return <LandingUI />
 }
 
 export default Landing
