@@ -1,6 +1,6 @@
 import { useNavigation } from '@react-navigation/native'
 import React from 'react'
-import { Button, Text, View, TextInput, Image, ScrollView, TouchableOpacity } from 'react-native'
+import { Text, View, TextInput, Image, ScrollView, TouchableOpacity } from 'react-native'
 import { styles } from './MeetingsList.styles'
 
 const ListUI = ({inputText, setInputText}) => {

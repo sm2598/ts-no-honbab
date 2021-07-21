@@ -13,13 +13,53 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     marginBottom: 20
   },
-  infoWrapper: {
+  subView: {
+    flexDirection: 'row',
+    borderWidth: 1,
+    borderColor: '#bdbdbd',
+    alignItems: 'center',
+    width: 320,
+    height: 40,
+    marginBottom: 10,
+    paddingLeft: 30,
+  },
+  tagImg: {
+    position: 'absolute',
+    top: 0,
+    left: 10,
+  },
+  title: {
+    fontWeight: 'bold',
+    fontSize: 12,
+  },
+  text: {
 
   },
-  timeWrapper: {
-
+  contentsWrapper: {
+    flexDirection: 'row',
+    borderWidth: 1,
+    borderColor: '#bdbdbd',
+    paddingTop: 10,
+    width: 320,
+    height: 220,
+    marginBottom: 70,
+    paddingLeft: 30,
+    marginTop: 25,
   },
-  placeWrapper: {
-
+  button: {
+    marginLeft: 25,
+    width: '90%',
+    height: 40,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1,
+    borderColor: '#bdbdbd',
+    backgroundColor: '#bdbdbd',
+    borderRadius: 20
   },
+  buttonText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#ffffff'
+  }
 })
