@@ -8,7 +8,9 @@ const ListUI = ({inputText, setInputText}) => {
 
   return (
     <View style={styles.mainView}>
-      <TouchableOpacity style={{position: 'absolute', bottom: 15, right: 25, zIndex: 1}}>
+      <TouchableOpacity
+        style={{position: 'absolute', bottom: 15, right: 25, zIndex: 1}}
+        onPress={() => navigation.navigate('create')}>
         <Image source={require('../../../../../public/meetings/create-button.png')} />
       </TouchableOpacity>
       <View>

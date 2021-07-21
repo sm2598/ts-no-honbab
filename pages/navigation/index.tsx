@@ -9,7 +9,7 @@ const NavigationPage = () => {
 
   return (
     <NavigationContainer>
-      <Stack.Navigator screenOptions={{ headerShown: false }}>
+      <Stack.Navigator screenOptions={{headerShown: false}}>
         <Stack.Screen name='landing' component={LandingPage} />
         <Stack.Screen name='tabNavigator' component={TabNavigator} />
       </Stack.Navigator>

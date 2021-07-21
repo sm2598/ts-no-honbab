@@ -1,9 +1,10 @@
 import React from 'react'
 import CreateUI from './MeetingsCreate.presenter'
 
-
 const Create = () => {
-  return <CreateUI />
+  const [title, setTitle] = React.useState('')
+
+  return <CreateUI title={title} setTitle={setTitle} />
 }
 
 export default Create
